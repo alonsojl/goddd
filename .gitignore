@@ -1,0 +1,5 @@
+.env
+goddd.log
+.idea/
+tmp/
+bin/api-rest

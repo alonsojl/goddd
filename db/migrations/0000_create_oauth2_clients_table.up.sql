@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `oauth2_clients` (
+  `id`     VARCHAR(255) NOT NULL PRIMARY KEY,
+  `secret` VARCHAR(255) NOT NULL,
+  `domain` VARCHAR(255) NOT NULL,
+  `data`   TEXT NOT NULL
+);
